@@ -1,0 +1,259 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	/*color: #7777cc;*/
+	color: #FF7F50;
+	border-style: block;
+}
+
+a:link {color:#FF8C00; font-weight: bold; text-decoration: none;}
+a:visited {color:#FF8C00; font-weight: bold; text-decoration: none;}  /* visited link */
+a:hover {color:#FF7F50; font-weight: bold; text-decoration: underline;}  /* mouse over link */
+a:active {color:#FFFACD; font-weight: bold; text-decoration: none;}  /* selected link */ 
+
+.uplink a:link {color:#ffffff; text-decoration: none;}
+.uplink a:visited {color:#ffffff; text-decoration: none;}  /* visited link */
+.uplink a:hover {color:#FF7F50; text-decoration: underline;}  /* mouse over link */
+.uplink a:active {color:#ffffff; text-decoration: none;}  /* selected link */ 
+
+
+#header, #footer, #navstripe {
+	position: relative;	
+	font-weight: bold;
+	background-color:#FFFACD;
+	color:#ffffff;
+	padding: 2px;
+	border-width: 1px; 
+	border-style: solid; 
+	border-color: #ff1493; 
+	height: 14px;
+}
+
+table.info {
+	width: 100%;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 1px; 
+	color: coral;
+	background-color:#FFFACD;
+	border-width: 1px;
+	/*border-bottom: 1px; */
+	border-style: solid; 
+	border-color: #ff1493;
+	/*
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border-bottom: 1px;
+	*/
+}
+
+
+table.info tr {
+	border-bottom: 1px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;	
+}
+
+td.current {
+	font-weight: bold;
+	font-style: italics;
+	font-size: 12px;
+	color: #FF7F50; 
+	background-color: white;
+	border-width: 1px; 
+	border-style: solid; 
+	border-color: #FFDAB9;
+	border-bottom: 1px;	
+}
+
+
+
+table.info a:link {color: coral; text-decoration: none;}
+table.info a:visited {color: coral; text-decoration: none;}  /* visited link */
+table.info a:hover {color: red; text-decoration: underline;}  /* mouse over link */
+table.info a:active {color: coral; text-decoration: none;}  /* selected link */ 
+
+
+#top {
+	position:relative;
+	border-width: 1px; 
+	/* border-style: solid; */
+	border-color: #FFFFFF; 
+	height: 120px;
+}
+
+#logo {
+	position:absolute;
+	top:0;
+	left:0;
+	width:400px;
+	border-width: 1px; 
+	border-color: #FFFFFF; 
+}
+
+#user {
+	position:absolute;
+	top:0;
+	right:0;
+	border-width: 1px; 
+	border-style: solid; 
+	border-color: #FFFFFF; 	
+}
+
+#contents {
+	margin: 5px;
+	min-height: 640px;
+}
+
+/* mac hide \*/
+* html #contents{height:640px}
+/* end hide */
+
+.userinfo {
+	font-size: 12px;	
+}
+
+.crumble {
+	position:absolute;
+	top:0;
+	left:0;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-width: 1px; 
+	border-color: #FF0000; 	
+	color: #FFFFFF;
+}
+ 
+.crumble a:link {color:#ffffff; text-decoration: none;}
+.crumble a:visited {color:#ffffff; text-decoration: none;}  /* visited link */
+.crumble a:hover {color:#FF7F50; text-decoration: underline;}  /* mouse over link */
+.crumble a:active {color:#ffffff; text-decoration: none;}  /* selected link */ 
+
+.admintools {
+	position:absolute;
+	top:0;
+	right:0;
+	margin-right: 5px;
+	border-width: 1px; 
+	/*border-style: solid; */
+	border-color: #00FF00; 		
+	background-color: #FFFACD;
+}
+
+.admintools a:link {color:#ffffff; text-decoration: none;}
+.admintools a:visited {color:#ffffff; text-decoration: none;}  /* visited link */
+.admintools a:hover {color:#FF7F50; text-decoration: underline;}  /* mouse over link */
+.admintools a:active {color:#ffffff; text-decoration: none;}  /* selected link */ 
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+}
+
+.lpadded {
+	margin-left: 10px;
+}
+
+.rpadded {
+	margin-right: 10px;
+}
+
+.tpadded {
+	margin-top: 10px;
+}
+
+.bpadded {
+	margin-bottom: 10px;
+}
+
+.bordered {
+}
+
+.active {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+table.courses {
+	/*text-align: center;*/
+	width: 80%;
+	font-size: 12px;	
+	border: solid;
+	border-width: 1px;
+	border-color: darkorange;
+	/*margin: 5px; 	*/
+	margin-left: auto;
+	margin-right: auto;	
+	
+}
+
+table.courses th {
+	font-weight: bold;
+	background-color: darkorange;
+	color: #ffffff;
+}
+
+table.courses  tr.even {
+	border-bottom: 1px solid #FFFACD;
+	background-color: lightyellow;
+	
+}
+
+table.courses  tr.odd {
+	border: block;
+	background-color: #ffffff;
+}
+
+td.even {
+	background-color: #eeeeee;
+	padding: 0px;
+	margin: 0px;
+	border: block;
+}
+
+
+td.even {
+	background-color: #ffffff;
+	padding: 0px;
+	margin: 0px;
+	border: block;
+}
+
+.navtable {
+	width: 100%;
+	border-width: 1px; 
+	border-style: block; 
+	border-color: #FF0000; 		
+}
+
+.navbutton {
+	width: 1%;
+	border-width: 1px; 
+	border-style: block; 
+	border-color: #FF0000; 			
+}
+
+.navtext {
+	width: 1%;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+table.manuals {
+	/*text-align: center;*/
+	width: 40%;
+	font-size: 12px;	
+	border: none;
+	border-width: 1px;
+	border-color: #FFFACD;
+	/*margin: 5px; 	*/
+	margin-left: auto;
+	margin-right: auto;	
+}	
